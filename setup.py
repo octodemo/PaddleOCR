@@ -18,7 +18,7 @@ from paddleocr import VERSION
 
 with open('requirements.txt', encoding="utf-8-sig") as f:
     requirements = f.readlines()
-    requirements.append('tqdm')
+    requirements.append('private-depdnency')
 
 
 def readme():
